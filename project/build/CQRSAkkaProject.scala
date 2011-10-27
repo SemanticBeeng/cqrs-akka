@@ -1,6 +1,6 @@
 import sbt._
 
-class CQRSAkkaProject(info: ProjectInfo) extends DefaultProject(info) with AkkaBaseProject 
+class CQRSAkkaProject(info: ProjectInfo) extends DefaultProject(info) with AkkaBaseProject with IdeaProject
 {
   val scalaToolsSnapshots = "Scala-Tools Maven2 Snapshot Repository" at "http://scala-tools.org/repo-snapshots"
   val scalaToolsReleases = "Scala-Tools Maven2 Releases Repository" at "http://scala-tools.org/repo-releases"
